@@ -1,0 +1,89 @@
+
+.header-box
+{
+  text-align: center;
+}
+
+.input-area
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.input-box
+{
+  display: block;
+  float: left;
+  margin-left: 5%;
+}
+
+.input-box select {
+  width: 100px;
+}
+
+.link-box
+{
+  margin-top: 150px;
+  margin-left: 5%;
+  height: 450px;
+  width: 90%;
+  border-right: 2px solid #0085ba;
+  border-left: 2px solid #0085ba;
+  overflow-y: scroll;
+}
+
+.link-row
+{
+  display: block;
+  width: 90%;
+  border-bottom: 1px solid #0085ba;
+
+}
+
+.delete-box {
+  float: right;
+  margin-right: 5%;
+  margin-top: -75px;
+}
+/* width */
+.link-box::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+/* Track */
+.link-box::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.link-box::-webkit-scrollbar-thumb {
+  /*background: #888;*/
+  background-color: #0085ba;
+}
+
+/* Handle on hover */
+.link-box::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+.input-row
+{
+  display: block;
+  margin-left: 5%;
+}
+
+@media only screen and (max-width: 700px) {
+  .link-box span
+  {
+    margin-left: 5%;
+      display: block;
+  }
+  .delete-box {
+    float: none;
+    margin-left: 5%;
+    margin-top: 0px;
+  }
+}
